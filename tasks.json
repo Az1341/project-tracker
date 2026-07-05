@@ -1,0 +1,115 @@
+{
+  "last_updated": "2026-07-05",
+  "tasks": [
+    {
+      "id": "FAM-001",
+      "project": "Famviai",
+      "title": "Supabase Stage 1 Setup",
+      "start_date": "2026-06-27",
+      "deadline": "2026-06-27",
+      "status": "done",
+      "completed_date": "2026-06-27",
+      "notes": ""
+    },
+    {
+      "id": "FAM-002",
+      "project": "Famviai",
+      "title": "Database Schema + Migration (profiles, families, family_members)",
+      "start_date": "2026-06-27",
+      "deadline": "2026-06-27",
+      "status": "done",
+      "completed_date": "2026-06-27",
+      "notes": ""
+    },
+    {
+      "id": "FAM-003",
+      "project": "Famviai",
+      "title": "RLS Policies + Auth Trigger",
+      "start_date": "2026-06-27",
+      "deadline": "2026-06-27",
+      "status": "done",
+      "completed_date": "2026-06-27",
+      "notes": "14 policies + 2 helper functions"
+    },
+    {
+      "id": "FAM-004",
+      "project": "Famviai",
+      "title": "Auth pages (signup/signin/dashboard) + SSR middleware",
+      "start_date": "2026-06-27",
+      "deadline": "2026-06-27",
+      "status": "done",
+      "completed_date": "2026-06-27",
+      "notes": ""
+    },
+    {
+      "id": "FAM-005",
+      "project": "Famviai",
+      "title": "Family creation + invite code system",
+      "start_date": "2026-07-06",
+      "deadline": "2026-07-08",
+      "status": "todo",
+      "completed_date": "",
+      "notes": ""
+    },
+    {
+      "id": "FAM-006",
+      "project": "Famviai",
+      "title": "Family dashboard UI (home screen)",
+      "start_date": "2026-07-09",
+      "deadline": "2026-07-11",
+      "status": "todo",
+      "completed_date": "",
+      "notes": ""
+    },
+    {
+      "id": "FAM-007",
+      "project": "Famviai",
+      "title": "Per-member profiles + photos",
+      "start_date": "2026-07-12",
+      "deadline": "2026-07-14",
+      "status": "todo",
+      "completed_date": "",
+      "notes": ""
+    },
+    {
+      "id": "FAM-008",
+      "project": "Famviai",
+      "title": "Shared family calendar",
+      "start_date": "2026-07-15",
+      "deadline": "2026-07-17",
+      "status": "todo",
+      "completed_date": "",
+      "notes": ""
+    },
+    {
+      "id": "FAM-009",
+      "project": "Famviai",
+      "title": "Chore/task management per family member",
+      "start_date": "2026-07-18",
+      "deadline": "2026-07-20",
+      "status": "todo",
+      "completed_date": "",
+      "notes": ""
+    },
+    {
+      "id": "GC-000",
+      "project": "GoalCurrent",
+      "title": "Round of 16 homepage/layout improvements",
+      "start_date": "",
+      "deadline": "",
+      "status": "todo",
+      "completed_date": "",
+      "notes": "NEEDS DATES - no schedule set yet, add via Mark-Done.ps1 or ask Claude to update"
+    },
+    {
+      "id": "DKAMS-000",
+      "project": "DKAMS",
+      "title": "Populate blueprint folder content (currently all Content Pending)",
+      "start_date": "",
+      "deadline": "",
+      "status": "todo",
+      "completed_date": "",
+      "notes": "NEEDS DATES - no schedule set yet"
+    }
+  ]
+}
