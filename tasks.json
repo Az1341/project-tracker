@@ -42,54 +42,54 @@
       "notes": ""
     },
     {
-      "id": "FAM-005",
+      "id": "FAM-010",
       "project": "Famviai",
-      "title": "Family creation + invite code system",
+      "title": "Stage 0: BP-009 safeguarding floor + school/clipboard route split - build",
+      "start_date": "2026-07-04",
+      "deadline": "2026-07-05",
+      "status": "done",
+      "completed_date": "2026-07-05",
+      "notes": "Migrations 023-025, onboarding gating, ADR-001 route split - committed and pushed to main"
+    },
+    {
+      "id": "FAM-011",
+      "project": "Famviai",
+      "title": "Stage 0: restore stashed welcome/privacy/email work, commit properly",
+      "start_date": "2026-07-05",
+      "deadline": "2026-07-05",
+      "status": "done",
+      "completed_date": "2026-07-05",
+      "notes": "Welcome-002, privacy page, unsubscribe, admin subscribers dashboard, welcome email template were only in a git stash - being restored and committed (TASK-013)"
+    },
+    {
+      "id": "FAM-012",
+      "project": "Famviai",
+      "title": "Stage 0: Vercel redeploy + verify all routes live on production",
+      "start_date": "2026-07-05",
+      "deadline": "2026-07-05",
+      "status": "todo",
+      "completed_date": "",
+      "notes": "Vercel CLI needs re-auth (vercel login) - blocked on Ahmad, not Cursor. Confirm /privacy, /unsubscribe, logo, onboarding flow all live on famviai.vercel.app after redeploy"
+    },
+    {
+      "id": "FAM-013",
+      "project": "Famviai",
+      "title": "Stage 0: delete duplicate famviai-1 Vercel project",
+      "start_date": "2026-07-05",
+      "deadline": "2026-07-06",
+      "status": "todo",
+      "completed_date": "",
+      "notes": "Only after FAM-012 confirms famviai.vercel.app serves everything correctly"
+    },
+    {
+      "id": "FAM-014",
+      "project": "Famviai",
+      "title": "Stage 1: wire Claude API to Ask Famvi input bar (AI-001)",
       "start_date": "2026-07-06",
-      "deadline": "2026-07-08",
+      "deadline": "2026-07-10",
       "status": "todo",
       "completed_date": "",
-      "notes": ""
-    },
-    {
-      "id": "FAM-006",
-      "project": "Famviai",
-      "title": "Family dashboard UI (home screen)",
-      "start_date": "2026-07-09",
-      "deadline": "2026-07-11",
-      "status": "todo",
-      "completed_date": "",
-      "notes": ""
-    },
-    {
-      "id": "FAM-007",
-      "project": "Famviai",
-      "title": "Per-member profiles + photos",
-      "start_date": "2026-07-12",
-      "deadline": "2026-07-14",
-      "status": "todo",
-      "completed_date": "",
-      "notes": ""
-    },
-    {
-      "id": "FAM-008",
-      "project": "Famviai",
-      "title": "Shared family calendar",
-      "start_date": "2026-07-15",
-      "deadline": "2026-07-17",
-      "status": "todo",
-      "completed_date": "",
-      "notes": ""
-    },
-    {
-      "id": "FAM-009",
-      "project": "Famviai",
-      "title": "Chore/task management per family member",
-      "start_date": "2026-07-18",
-      "deadline": "2026-07-20",
-      "status": "todo",
-      "completed_date": "",
-      "notes": ""
+      "notes": "Cannot begin until FAM-011 through FAM-013 (Stage 0) fully closed, per Foundation Rule: no skipping phases"
     },
     {
       "id": "GC-000",
