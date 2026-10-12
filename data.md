@@ -1,19 +1,18 @@
-# data.md — project-tracker
+# data.md — Public Project Tracker
 
-**Review draft:** 12 October 2026. Do not create a new database, migration or retention policy from this document alone.
+**Purpose:** Existing data-boundary review guide, not a new data policy or schema. **Status:** DRAFT / NOT CERTIFIED, 12 October 2026 (Europe/London).
 
-## Data inventory
-In scope for verification: work item metadata, privacy-conscious release states. Inspect the existing schema, source-of-truth documents, storage and data processing code; these are the technical authority.
+## Authority
+No verified tracker SOT or approved application data model located; confirm with owner before scope decisions.
 
-## Data contract
-1. Classify public, internal, confidential and sensitive data. Identify owners, purpose, lawful basis where required, tenancy and approved processors.
-2. Restrict reads and writes using existing server-side permissions, row policies where applicable, and auditable service privileges.
-3. Minimise collection and avoid sensitive data in prompts, logs, analytics, fixtures and public Git history.
-4. Document retention, secure deletion, export, restoration and backups from actual implementation. Treat unverified capabilities as UNVERIFIED.
-5. Test access denial across accounts/brands/families/projects using synthetic records. Document data lineage and migration reversibility.
-6. No production data migration, write, import or export is authorised by these documentation additions.
+## Data separation and handling
+- Treat internal project plans, statuses, spending, credentials, customer or family information as non-public until independently classified.
+- Do not push operational project data into a public repository merely to populate documentation.
+- If a live tracker exists elsewhere, link to its canonical SOT rather than copy its data or create a second tracker.
 
-## Evidence needed
-Schema and migration references; retention register; boundary checks; backup/restore test; privacy and incident contacts; exact-SHA automated test results.
+## Evidence and approval
+Required verification: Repository public-visibility review, intended schema and owner, classification of any existing tracked material. Use real code/schema paths and synthetic records for testing. Unexecuted checks are **NOT RUN**, not PASS. No database migration, retention change, live export, production write or credentials are authorised by this document.
 
-See [security.md](security.md), [auth.md](auth.md), [checklist.md](checklist.md).
+**Current gate:** HOLD — application and data purpose unknown.
+
+Related: [security.md](security.md), [auth.md](auth.md), [hack.md](hack.md), [checklist.md](checklist.md).
